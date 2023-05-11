@@ -1,2 +1,1 @@
-print("Hola Mundo")
-print("a")
+from kivy.app import App
