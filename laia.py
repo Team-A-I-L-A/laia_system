@@ -50,7 +50,7 @@ class BackgroundBody(Widget):
         with self.canvas:
             # CREAR FONDO DEL CUERPO
             Color(.871, .871, .871, 1)
-            self.rect = Rectangle(pos = self.center, size =(self.width / 2., self.height / 2.))
+            self.rect = Rectangle(pos = self.center, size =(self.width / 2.5, self.height / 2.5))
  
             # Update the canvas as the screen size change
             self.bind(pos = self.update_rect, size = self.update_rect)
